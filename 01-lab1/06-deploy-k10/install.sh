@@ -13,6 +13,7 @@ helm install k10 kasten/k10 \
 --set auth.basicAuth.enabled=true \
 --set auth.basicAuth.htpasswd='admin:{SHA}m04Br+QJKkP4TQq/6bm5WCDk91I='
 
+# account login: admin/Chualanhxxx
 #--set prometheus.server.persistentVolume.enabled=false
 
 
