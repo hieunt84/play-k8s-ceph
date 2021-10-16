@@ -6,5 +6,4 @@ primary:
     enabled: true
     runAsUser: 0
   persistence:
-    storageClass: rook-ceph-block
     size: 1Gi
