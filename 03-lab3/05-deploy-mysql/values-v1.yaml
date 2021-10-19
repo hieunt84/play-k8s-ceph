@@ -6,4 +6,4 @@ primary:
     enabled: true
     runAsUser: 0
   persistence:
-    size: 1Gi
+    size: 512Mi

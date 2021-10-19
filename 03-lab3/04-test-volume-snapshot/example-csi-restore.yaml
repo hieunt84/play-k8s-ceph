@@ -1,0 +1,16 @@
+# example-csi-restore.yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: test-restore-snapshot-pvc
+spec:
+  storageClassName: rook-ceph-block
+  dataSource:
+    name: test-snapshot-pvc
+    kind: VolumeSnapshot
+    apiGroup: snapshot.storage.k8s.io
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
