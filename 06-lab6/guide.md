@@ -20,7 +20,7 @@ kubectl -n rook-ceph get pod -w
 
 # 02. Create a Ceph Cluster
 
-kubectl create -f cluster.yaml
+kubectl create -f cluster-test.yaml
 kubectl -n rook-ceph get pod -w
 
 # 03. Access dashboard

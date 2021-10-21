@@ -4,7 +4,7 @@ https://github.com/rook/rook/blob/master/Documentation/ceph-dashboard.md
 ```
 ### Acess
 ```
-https://172.20.10.80:30887/
+http://172.20.10.80:30520/
 ```
 
 ### commands
