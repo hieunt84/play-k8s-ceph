@@ -14,13 +14,13 @@ cd rook/cluster/examples/kubernetes/ceph
 
 # 01. Deploy the Rook Operator
 
-kubectl create -f common.yaml
-kubectl create -f operator.yaml
+kubectl apply -f common.yaml
+kubectl apply -f operator.yaml
 kubectl -n rook-ceph get pod -w
 
 # 02. Create a Ceph Cluster
 
-kubectl create -f cluster-test.yaml
+kubectl apply -f ./cluster-test.yaml
 kubectl -n rook-ceph get pod -w
 
 # 03. Access dashboard
