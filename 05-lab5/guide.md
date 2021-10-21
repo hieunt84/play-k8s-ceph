@@ -24,4 +24,6 @@ kubectl create -f ./cluster-test.yaml
 
 kubectl --namespace=rook-ceph --watch=true get pods
 
+kubectl apply -f ./dashboard-external-https.yaml
+
 ```
