@@ -4,7 +4,7 @@ https://github.com/rook/rook/blob/master/Documentation/ceph-dashboard.md
 ```
 ### Acess
 ```
-https://ip-node:port
+https://172.20.10.80:30887/
 ```
 
 ### commands

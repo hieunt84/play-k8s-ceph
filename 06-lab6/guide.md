@@ -10,19 +10,17 @@ rook ver : 1.4.9
 # 00. add repo
 
 git clone --single-branch --branch v1.4.9 https://github.com/rook/rook.git
-
 cd rook/cluster/examples/kubernetes/ceph
 
 # 01. Deploy the Rook Operator
 
-kubectl create -f common.yaml -f operator.yaml
-
+kubectl create -f common.yaml
+kubectl create -f operator.yaml
 kubectl -n rook-ceph get pod -w
 
 # 02. Create a Ceph Cluster
 
-kubectl create -f cluster-test.yaml
-
+kubectl create -f cluster.yaml
 kubectl -n rook-ceph get pod -w
 
 # 03. Access dashboard
