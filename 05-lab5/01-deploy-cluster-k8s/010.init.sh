@@ -19,7 +19,7 @@ source /root/.bash_profile
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 # Xóa taint trên node cho phép tạo Pod
-# kubectl taint node kmaster node-role.kubernetes.io/master-
+kubectl taint node kmaster-test node-role.kubernetes.io/master-
 
 # thêm taint trên node master.xtl ngăn tạo Pod trên nó
 # kubectl taint nodes kmaster node-role.kubernetes.io/master=false:NoSchedule
