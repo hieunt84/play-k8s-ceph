@@ -17,5 +17,3 @@ spec:
     rook_cluster: rook-ceph
   sessionAffinity: None
   type: NodePort
-  fsfsf
-  
