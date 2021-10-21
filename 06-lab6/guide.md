@@ -1,13 +1,13 @@
 ### Info
 k8s ver: 1.19.1
-rook ver : 1.6.x
+rook ver : 1.4.9
 
 ### Target
-- Test version rook 1.6.x
+- Test version rook 1.4.9
 
 ### Commands deploy
 ```
-git clone --single-branch --branch release-1.6 https://github.com/rook/rook.git
+git clone --single-branch --branch v1.4.9 https://github.com/rook/rook.git
 
 cd rook/cluster/examples/kubernetes/ceph
 
