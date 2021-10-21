@@ -20,7 +20,7 @@ kubectl create -f operator.yaml
 
 kubectl --namespace=rook-ceph --watch=true get pods
 
-kubectl create -f cluster-test.yaml
+kubectl create -f ./cluster-test.yaml
 
 kubectl --namespace=rook-ceph --watch=true get pods
 
