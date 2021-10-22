@@ -66,6 +66,14 @@ kubectl create -f csi/rbd/snapshot.yaml
 kubectl create -f csi/rbd/pvc-restore.yaml
 ```
 
+### Deploy mysql
+```
+```
+
+### Deploy k10
+```
+```
+
 ### Ref
 ```
 https://rook.github.io/docs/rook/v1.3/ceph-quickstart.html
