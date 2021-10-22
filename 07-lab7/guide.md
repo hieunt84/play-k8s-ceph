@@ -1,3 +1,8 @@
+###  Notes
+```
+Bị error giống lab02
+```
+
 ### Info
 k8s ver: 1.19.1
 rook ver : 1.2.1
@@ -11,6 +16,7 @@ rook ver : 1.2.1
 
 git clone --single-branch --branch release-1.2 https://github.com/rook/rook.git
 cd rook/cluster/examples/kubernetes/ceph
+git status
 
 # 01. Deploy the Rook Operator
 
@@ -32,7 +38,37 @@ kubectl apply -f ./dashboard-external-https.yaml
 
 ```
 
+### StorageClass Install
+```
+kubectl create -f csi/rbd/storageclass-test.yaml
+
+kubectl patch storageclass rook-ceph-block \
+    -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
+
+```
+
+### VolumeSnapshotClass Install
+```
+kubectl create -f csi/rbd/snapshotclass.yaml
+```
+
+### Creat pvc
+```
+kubectl create -f csi/rbd/pvc.yaml
+```
+
+### Creat snapshot for pvc above
+```
+kubectl create -f csi/rbd/snapshot.yaml
+```
+
+### Restore from snapshot
+```
+kubectl create -f csi/rbd/pvc-restore.yaml
+```
+
 ### Ref
 ```
 https://rook.github.io/docs/rook/v1.2/ceph-quickstart.html
+https://blog.kasten.io/posts/rook-ceph-csi-kubernetes-and-k10-an-all-in-one-stateful-experience/
 ```
