@@ -31,10 +31,11 @@ kubectl -n rook-ceph get pod -w
 kubectl apply -f cluster.yaml
 kubectl -n rook-ceph get pod -w
 
-# 03. Access dashboard
+```
 
+### Access dashboard ceph
+```
 kubectl apply -f ./dashboard-external-https.yaml
-
 ```
 
 ### StorageClass Install
