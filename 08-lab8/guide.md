@@ -4,10 +4,10 @@
 
 ### Info
 k8s ver: 1.19.1
-rook ver : 1.3
+rook ver : 1.3.11
 
 ### Target
-- Test version rook 1.3
+- Test version rook 1.3.11
 
 ### Deploy rook-ceph
 ```
@@ -28,7 +28,7 @@ kubectl -n rook-ceph get pod -w
 
 # 02. Create a Ceph Cluster
 
-kubectl apply -f cluster-test.yaml
+kubectl apply -f cluster.yaml
 kubectl -n rook-ceph get pod -w
 
 # 03. Access dashboard
@@ -39,7 +39,7 @@ kubectl apply -f ./dashboard-external-https.yaml
 
 ### StorageClass Install
 ```
-kubectl create -f csi/rbd/storageclass-test.yaml
+kubectl create -f csi/rbd/storageclass.yaml
 
 kubectl patch storageclass rook-ceph-block \
     -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
@@ -69,6 +69,5 @@ kubectl create -f csi/rbd/pvc-restore.yaml
 ### Ref
 ```
 https://rook.github.io/docs/rook/v1.3/ceph-quickstart.html
-https://blog.kasten.io/posts/rook-ceph-csi-kubernetes-and-k10-an-all-in-one-stateful-experience/
 
 ```
