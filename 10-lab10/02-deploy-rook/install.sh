@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # 00. chang directory
+cd ~
 git clone --single-branch --branch v1.5.12 https://github.com/rook/rook.git
 cd rook/cluster/examples/kubernetes/ceph
 
