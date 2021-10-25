@@ -2,7 +2,7 @@
 
 # 00. chang directory
 cd ~
-git clone --single-branch --branch v1.7 https://github.com/rook/rook.git
+git clone --single-branch --branch v1.7.6 https://github.com/rook/rook.git
 cd rook/cluster/examples/kubernetes/ceph
 
 # 01. Deploy the Rook Operator
