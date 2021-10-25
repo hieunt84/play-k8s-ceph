@@ -8,4 +8,4 @@ cd rook/cluster/examples/kubernetes/ceph
 kubectl create -f csi/rbd/snapshot.yaml
 
 # 02. Verify 
-kubectl get pvc
+kubectl get volumesnapshot

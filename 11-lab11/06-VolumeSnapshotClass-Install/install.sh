@@ -8,4 +8,4 @@ cd rook/cluster/examples/kubernetes/ceph
 kubectl create -f csi/rbd/snapshotclass.yaml
 
 # 02. Verify 
-kubectl get snapshotclass
+kubectl get volumesnapshotclass
