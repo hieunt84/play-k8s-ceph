@@ -3,8 +3,6 @@
 - Khi vừa khởi động lên ceph sẽ cảnh bảo
 - Đợi một thời gian (khoảng 45p) hệ thống ổn định,  sẽ hết cảnh bảo
 
-- không tạo được volume snapshot class
-
 ```
 
 ### Info
