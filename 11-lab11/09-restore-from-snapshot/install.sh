@@ -8,4 +8,4 @@ cd rook/cluster/examples/kubernetes/ceph
 kubectl create -f csi/rbd/pvc-restore.yaml
 
 # 02. Verify 
-kubectl get pvc
+kubectl get pvc -w
