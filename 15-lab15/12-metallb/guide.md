@@ -24,3 +24,10 @@ helm install metallb metallb/metallb -n metallb-system -f ./values.yaml
 - https://www.youtube.com/watch?v=2SmYjj-GFnE
 - https://metallb.universe.tf/installation/
 ```
+
+### Warning
+```
+Warning: resource configmaps/kube-proxy is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+configmap/kube-proxy configured
+
+```
