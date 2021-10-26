@@ -8,7 +8,7 @@ helm repo update
 kubectl create namespace kasten-io
 helm install k10 kasten/k10 \
 --namespace=kasten-io \
---set global.persistence.storageClass=rook-ceph-block \
+--version 4.5.1 \
 --set externalGateway.create=true \
 --set auth.basicAuth.enabled=true \
 --set auth.basicAuth.htpasswd='admin:{SHA}m04Br+QJKkP4TQq/6bm5WCDk91I='
@@ -17,6 +17,5 @@ helm install k10 kasten/k10 \
 kubectl annotate volumesnapshotclass csi-rbdplugin-snapclass k10.kasten.io/is-snapshot-class=true
 
 # account login: admin/Chualanh@xxx
-#--set prometheus.server.persistentVolume.enabled=false
 
 
