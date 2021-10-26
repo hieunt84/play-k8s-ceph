@@ -8,7 +8,7 @@
 
 # TODO Make [pod network CIDR, K8s version, docker version, etc.] configurable
 echo "[TASK 0] Declare variables"
-K8S_VERSION="1.19.1" # K8s is changed regularly. I just want to keep this script stable with v1.22
+K8S_VERSION="1.21.5" # K8s is changed regularly. I just want to keep this script stable with v1.22
 
 echo "[TASK 1] Disable and turn off SWAP"
 sed -i '/swap/d' /etc/fstab
