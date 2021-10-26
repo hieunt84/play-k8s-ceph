@@ -6,7 +6,7 @@
 ```
 
 ### Info
-k8s ver: 1.20.1
+k8s ver: 1.21.5
 rook ver : 1.7.6
 
 ### Target
