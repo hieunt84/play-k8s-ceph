@@ -10,7 +10,9 @@ cd external-snapshotter
 kubectl create -f client/config/crd
 
 ## Install Common Snapshot Controller:
-kubectl create -f deploy/kubernetes/snapshot-controller
+cd ~
+cd play-k8s-ceph/15-lab15/06-VolumeSnapshotClass-Install
+kubectl create -f snapshot-controller/
 
 # 00. change directory
 cd ~
