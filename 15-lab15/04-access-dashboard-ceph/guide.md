@@ -4,9 +4,9 @@ https://github.com/rook/rook/blob/master/Documentation/ceph-dashboard.md
 ```
 ### Acess
 ```
-https://172.20.10.80:30192/
+https://172.20.10.80:31008/
 user: admin
-pass: Q~&%!p9EqP9<@>"g'~Tz
+pass: D9<r`qiE"1u(CndT?tEI
 ```
 
 ### show pass to access dashborad
