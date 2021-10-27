@@ -7,4 +7,4 @@ helm repo update
 
 # install
 kubectl create ns ingress-nginx
-helm install myingress ingress-nginx/ingress-nginx -n ingress-nginx
+helm install myingress ingress-nginx/ingress-nginx -n ingress-nginx --version. 4.0.6

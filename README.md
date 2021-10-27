@@ -3,7 +3,7 @@
 ```
 https://blog.kasten.io/posts/storage-systems-and-data-management-for-kubernetes-power-in-diversity-0
 
-https://rook.github.io/docs/rook/v1.7/pre-reqs.html
+https://rook.github.io/docs/rook/v1.6/pre-reqs.html
 
 https://blog.kasten.io/posts/rook-ceph-csi-kubernetes-and-k10-an-all-in-one-stateful-experience/
 
