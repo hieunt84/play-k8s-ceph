@@ -1,25 +1,31 @@
 # play-k8s-rook-ceph
 ### Ref
 ```
-https://blog.kasten.io/posts/storage-systems-and-data-management-for-kubernetes-power-in-diversity-0
+Tutorial 1:
+https://news.cloud365.vn/ceph-ly-thuyet-dieu-it-de-y-ve-phien-ban-cua-ceph/
+https://news.cloud365.vn/ceph-lab-phan1-huong-dan-cai-dat-ceph-nautilus-tren-centos7/
+https://news.cloud365.vn/ceph-lab-phan2-huong-dan-su-dung-block-storage-cua-ceph/
 
+Tutorial 2:
+https://github.com/rook/rook
 https://rook.github.io/docs/rook/v1.6/pre-reqs.html
+https://ceph.com/en/
+https://github.com/kubernetes-csi/external-snapshotter/tree/v4.0.0#usage
 
-https://blog.kasten.io/posts/rook-ceph-csi-kubernetes-and-k10-an-all-in-one-stateful-experience/
-
-https://blog.kasten.io/posts/backup-and-disaster-recovery-for-rook-ceph-with-kasten-k10/
-
-https://blog.kasten.io/kubernetes-backup-and-dr-using-rook-1-4-and-ceph-3-0
-
+Tutorial 3:
 https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ceph-cluster-within-kubernetes-using-rook
+
+Tutorial 4:
+https://ralph.blog.imixs.com/2020/02/21/kubernetes-storage-volumes-with-ceph/
+
+
 ```
 
 ### What is ceph?
-- Ceph is a highly scalable distributed storage solution for block storage, object storage, and shared filesystems with years of production deployments.
-
+- Ceph is an open-source, distributed storage system.
 - storage solution
-
 - Software defines storage
+- Ceph is a highly scalable distributed storage solution for block storage, object storage, and shared filesystems with years of production deployments.
 
 - manage volume
   + provisioning
