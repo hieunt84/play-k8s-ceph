@@ -1,6 +1,8 @@
 # play-k8s-rook-ceph-k10
 ### Ref
 ```
+https://blog.kasten.io/kubernetes-backup-and-dr-using-rook-1-4-and-ceph-3-0
+
 Tutorial 1:
 https://news.cloud365.vn/ceph-ly-thuyet-dieu-it-de-y-ve-phien-ban-cua-ceph/
 https://news.cloud365.vn/ceph-lab-phan1-huong-dan-cai-dat-ceph-nautilus-tren-centos7/
