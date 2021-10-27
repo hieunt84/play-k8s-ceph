@@ -1,4 +1,4 @@
-# play-k10-ceph
+# play-k8s-rook-ceph
 ### Ref
 ```
 https://blog.kasten.io/posts/storage-systems-and-data-management-for-kubernetes-power-in-diversity-0
